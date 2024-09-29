@@ -1,0 +1,32 @@
+body{
+    background-color: brown;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 150px auto;
+    color: whitesmoke;
+}
+.heading{
+    margin-bottom: 1rem;
+}
+h1{
+    text-align: center;
+}
+input,button{
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+input{
+    padding: 8px 15px;
+    margin-bottom: 1rem;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(153, 9, 9);
+    color: whitesmoke;
+}
